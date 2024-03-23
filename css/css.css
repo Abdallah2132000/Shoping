@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    height: 70px ;
+    background-color: gray ;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header-content .brand{
+    padding: 13px 0px;
+    font-size: 32px;
+    text-decoration: none;
+    color: #ffff;
+
+}
+nav ul{
+   display: flex;
+   list-style: none;
+}
+nav li a{
+    display: block;
+    /* text-decoration: none; */
+    min-width: 80px;
+    padding: 5px  15px;
+    color: #ffff;
+    font-size: 20px;
+    margin: 0px 5px;
+    /* background-color: aqua; */
+}
+nav ul #user-info{
+    display: none;   
+}
+nav #user-info #user{
+    text-decoration: none;
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+    
+}
+.section-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+     transform: translate(-50%,-50%);
+     background-color: green;
+     width: 45%;
+     text-align: center;
+     padding: 20px;
+}
+.section-form h2{
+    font-size: 45px;
+    font-family:Arial, Helvetica, sans-serif ;
+    letter-spacing: 2px;
+    
+
+}
+.section-form form input{
+    display: block;
+    height: 30px;
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0px;
+    border: 1px solid black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    outline:none;
+}
+.section-form form input[type="submit"]{
+    font-size: 25px;
+    height: auto;   
+    text-transform:uppercase;
+    cursor: pointer; 
+}
+.section-form form input[type="submit"]:hover{
+    opacity: 0.7;
+}
+/* .................................. */
+
+.prodacts{
+    width: 60%;
+    margin: 10px 0px;
+
+}
+.prodact_itme{
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+    border: 1px solid #ddd;
+    min-height: 150px;
+    margin-bottom: 15px;
+
+}
+.prodact_item_img{
+    width: 25%;
+    margin-right: 10px;
+}
+.prodact_itme_action{
+    flex: 1;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.prodact_itme_action .add_to_cart{
+    display: block;
+    margin-left: auto;
+    background-color: green;
+    border: none;
+    color:white;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.prodact_itme_action .far{
+    cursor: pointer;
+    display: block;
+    width: 20px;
+    margin-left: auto ;
+
+}
+nav ul#user-info li i {
+    color: #ffff;
+    font-size: 25px;
+    cursor: pointer;   
+}
+nav ul#user-info li{
+    margin: 10px 20px;
+    position: relative;
+}
+nav ul#user-info li .badge{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    color: #ffff;
+    display: block;
+    border-radius: 50%;
+    text-align: center;
+    top: -10px;
+    left: 15px;
+    margin: 5px 0px;
+    display: none;
+
+}
+.cart_prodacts{
+    position:absolute;
+    width: 200px;
+    transform: translate(-50px,0px);
+    background-color: #aeaeae;
+    top: 57px;
+    padding: 5px 0px;
+    border: 1px solid green; 
+    display: none;
+
+    /* min-height: 40px; */
+    
+}
+
+.cart_prodacts a{
+    /* position: absolute; */
+    display:block;
+    
+   color: rgb(243, 235, 235);
+    margin: 0px 0px;
+    background-color: green;
+    text-decoration: none;
+    /* min-height: 30px; */
+    text-align: center;
+    padding: 10px 0px;
+    
+    /* width: 2px; */
+
+}
+
+    
